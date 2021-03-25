@@ -1,0 +1,18 @@
+//question
+
+var M = prompt("Olá! Eu sou sua calculadora de força potente para alavancas (CFPA), criada pela WSKsoft, digite qual a massa do objeto (força resistente) .")
+
+var XR = prompt("digite qual o tamanho da barra de força resistente.")
+
+var XP = prompt("digite qual o tamanho da barra de força potente.")
+
+alert("Ok, estamos processando seus números e encontrando o resultado de X... clique em OK para prosseguir e ver o resultado.")
+
+//calc
+
+var Result = M * XR / XP * 10
+
+//answer
+
+alert(Result+"N")
+alert("Obrigado por usar nossos serviços!")
