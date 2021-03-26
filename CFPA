@@ -1,10 +1,9 @@
 //question
 
-var M = prompt("Olá! Eu sou sua calculadora de força potente para alavancas (CFPA), criada pela WSKsoft, digite qual a massa do objeto (força resistente) .")
+var M = prompt("Olá! Eu sou sua calculadora de força potente para alavancas (CFPA), criada pela WSKsoft, digite qual a massa do objeto (KG)")
+var XR = prompt("digite qual o tamanho do braço de força resistente.")
 
-var XR = prompt("digite qual o tamanho da barra de força resistente.")
-
-var XP = prompt("digite qual o tamanho da barra de força potente.")
+var XP = prompt("digite qual o tamanho do braço de força potente.")
 
 alert("Ok, estamos processando seus números e encontrando o resultado de X... clique em OK para prosseguir e ver o resultado.")
 
